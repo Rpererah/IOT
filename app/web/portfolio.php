@@ -1,6 +1,6 @@
 <?php include_once("header.php"); ?>
 <?php 
-class Portfolio 
+/*class Portfolio 
 {
     public $imagem, $descricao;
     function __construct($imagem, $descricao)
@@ -26,7 +26,6 @@ $portfolios = array(
                 <h3 class="card-title"><?=$cartao->descricao?></h3>
             </div>
         </div>
-        <?php } ?>
-    </main>
-
+        <?php }*/ ?> 
+ <main></main>
 <?php include_once("footer.php"); ?>
