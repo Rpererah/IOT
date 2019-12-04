@@ -1,0 +1,17 @@
+Dia 4/12/2019 14:33
+"segundo git"
+O footer não carregou direito acima dos ícones aparecem:
+mode_edit
+insert_chart
+format_quote
+publish
+attach_file
+Debaixo disso há alguns ícones tortos que não possuem links.
+Há um link que era suposto levar para HomeTECH.com, mas leva para https://mdbootstrap.com/education/bootstrap/.
+Não há um botão de deslogar.
+Os ícones/links da home também não funcionam.
+A navbar não funciona, os links não foram alterados para levar à suas respectivas páginas.
+Ao testar a responsividade, percebe-se que página não fica do tamanho exato da tela, sobra um pouco.
+O menu "de hamburguer" não fica exatamente no canto da página.
+O conteúdo da home começa muito colado com a margem da página, ficando bem ruim a leitura.
+Não foram feitos os branches para cada parte do site, há apenas o branch menu-blog e o master.
