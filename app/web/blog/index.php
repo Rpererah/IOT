@@ -42,7 +42,7 @@
             <a class="nav-link" href="sobre.php">Sobre nós</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="posts.php">Posts </a>
+            <a class="nav-link" href="posts.php">Posts</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contato.php">Contato</a>
