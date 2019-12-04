@@ -39,7 +39,7 @@
             <a class="nav-link" href="index.php">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="sobre.php">Sobre nós </a>
+            <a class="nav-link" href="sobre.php">Sobre nós</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="posts.php">Posts</a>
