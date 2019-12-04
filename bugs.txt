@@ -22,3 +22,10 @@ O conteúdo da home começa muito colado com a margem da página, ficando bem ru
 Não foram feitos os branches para cada parte do site, há apenas o branch menu-blog e o master.
 Os links da navbar estão mal posicionados e pequenos.
 A página de entrada não aparece, está isolada, assim como o blog, não foi feita a junção dessas páginas ao site.
+Dia 4/12/2019 19:37
+"blog"
+O blog à parte tem uma aparência e uma estrutura diferente da principal.
+Não há notícias.
+O link para voltar à página principal não funciona.
+Os links do footer não funcionam.
+O link de post mais antigos não funciona.
