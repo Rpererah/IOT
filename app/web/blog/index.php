@@ -53,7 +53,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/house.jpg')">
+  <header class="masthead" style="background-image: url('img/house2.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -73,58 +73,48 @@
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-preview">
           <a href="posts.php">
-            <h2 class="post-title">
-              (TITULO)
-            </h2>
-            <h3 class="post-subtitle">
-              (SUBITITULO)
-            </h3>
-          </a>
-          <p class="post-meta">Postado por
-            <a href="#">(Nome)</a>
-            (DATA)</p>
         </div>
         <hr>
         <div class="post-preview">
           <a href="posts.php">
             <h2 class="post-title">
-              (TITULO)
+            O que é automação?
             </h2>
             <h3 class="post-subtitle">
-              (SUBITITULO)
+            “É uma nova experiência em moradia, que proporciona conexão e controle da sua casa e dos seus aparelhos eletrônicos, estando você em qualquer lugar, desde um keyboard, ou em um painel, bem como na palma da sua mão, conectado a uma rede wireless. É o resultado da integração de seus aparelhos com comandos automáticos controlados até mesmo por um smartphone ou computador”
             </h3>
           </a>
           <p class="post-meta">Postado por
-            <a href="#">(Nome)</a>
-            (DATA)</p>
+          <a href="#">Julio</a>
+            04/12/2019</p>
         </div>
         <hr>
         <div class="post-preview">
           <a href="posts.php">
             <h2 class="post-title">
-              (TITULO)
+            O que dá para automatizar?
             </h2>
             <h3 class="post-subtitle">
-              (SUBITITULO)
+            “quase tudo que tem acionamento eletrônico” pode ser automatizado. 
             </h3>
           </a>
           <p class="post-meta">Postado por
-            <a href="#">(Nome)</a>
-            (DATA)</p>
+          <a href="#">Julio</a>
+            04/12/2019</p>
         </div>
         <hr>
         <div class="post-preview">
           <a href="posts.php">
             <h2 class="post-title">
-              (TITULO)
+            Qual o custo da automação?
             </h2>
             <h3 class="post-subtitle">
-              (SUBITITULO)
+            “Tudo depende do grau de integração desejado pelo morador”, explica Muratori.
             </h3>
           </a>
           <p class="post-meta">Postado por
-            <a href="#">(Nome)</a>
-            (DATA)</p>
+          <a href="#">Julio</a>
+            04/12/2019</p>
         </div>
         <hr>
         <!-- Pager -->

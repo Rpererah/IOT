@@ -54,7 +54,7 @@
 
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
+  <header class="masthead" style="background-image: url('img/house3.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
