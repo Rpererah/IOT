@@ -118,8 +118,10 @@
         </div>
         <hr>
         <!-- Pager -->
+        
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#"> Posts mais antigos &rarr;</a>
+          <a class="btn btn-primary float-right" href="posts.php"> Postagens Completas &rarr;</a>
+        
         </div>
       </div>
     </div>

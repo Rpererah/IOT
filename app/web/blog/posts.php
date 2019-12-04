@@ -71,6 +71,8 @@
     </div>
   </header>
 
+  
+
   <!-- Post Content -->
   <article>
     <div class="container">
@@ -113,9 +115,16 @@
       </div>
     </div>
   </article> -->
+<hr>
+  <!-- Pager -->
+  <div class="clearfix">
+          <a class="btn btn-primary float-right" href="index.php"> Inicio &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <hr>
-
+<hr>
   <!-- Footer -->
   <footer>
     <div class="container">
