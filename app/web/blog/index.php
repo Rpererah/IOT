@@ -74,7 +74,7 @@
         <div class="post-preview">
           <a href="posts.php">
             <h2 class="post-title">
-              (ITUTLO)
+              (TITULO)
             </h2>
             <h3 class="post-subtitle">
               (SUBITITULO)
@@ -88,7 +88,7 @@
         <div class="post-preview">
           <a href="posts.php">
             <h2 class="post-title">
-              (ITUTLO)
+              (TITULO)
             </h2>
             <h3 class="post-subtitle">
               (SUBITITULO)
@@ -102,7 +102,7 @@
         <div class="post-preview">
           <a href="posts.php">
             <h2 class="post-title">
-              (ITUTLO)
+              (TITULO)
             </h2>
             <h3 class="post-subtitle">
               (SUBITITULO)
@@ -116,7 +116,7 @@
         <div class="post-preview">
           <a href="posts.php">
             <h2 class="post-title">
-              (ITUTLO)
+              (TITULO)
             </h2>
             <h3 class="post-subtitle">
               (SUBITITULO)
