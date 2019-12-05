@@ -37,7 +37,7 @@
           <div class="post-heading">
             <h1>Automatização Residencial</h1>
             <h2 class="subheading"></h2>
-            <span class="meta">Postado por 
+            <span class="meta">Postado por  
               <a href="#">Julio Cesar</a>
               04/12/2019</span>
           </div>
