@@ -6,33 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/entrada.css">
+
 </head>
 <body>
 <main>
+<div class="container" style="margin-top:100px">
     <div class="cards-list">
   
 <div class="card 1">
-  <div class="card_image"> <img src="http://www.libras.com.br/images/leis/simbolo-internacional-da-surdez.png" /> </div>
-  <div class="card_title title-green">
-    <p>Deficiente auditivo</p>
+  <div class="card_image"> <img src="http://portalsinalverde.com/uploads/noticias/29de3b4b05a7ce13fb34411b454ed13902092019133204.jpg" /> </div>
+  <div class="card_title title-white"> 
+    <p style="text-shadow: 4px 4px black;"> </p>
+  
   </div>
+  
 </div>
 
   <div class="card 2">
   <div class="card_image">
-    <img src="https://vidamaislivre.com.br/wp-content/uploads/2014/04/deficiente_visual_quadrado-2.jpg" />
+    <img src="https://vidamaislivre.com.br/wp-content/uploads/2014/04/deficiente_visual_quadrado-2.jpg" alt="Botão seleção de opção de site voltado a deficientes visuais" />
     </div>
-  <div class="card_title title-black">
-    <p>deficiente visual</p>
+  <div class="card_title title-white">
+    <p style="text-shadow: 4px 4px black;">VISUAL</p>
   </div>
 </div>
 
 <div class="card 3">
   <div class="card_image">
-    <img src="http://www.joaquimnabuco.edu.br/sites/joaquimnabuco.edu.br/files/fields/imagemTopo/noticias/2019/09/inclusion-2731339_1280_0.jpg" />
+    <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/381c2abde74ad5fb139f94f5347d0fa6.jpg" />
   </div>
   <div class="card_title title-white">
-    <p>A todos</p>
+    <p style="text-shadow: 4px 4px black;" ></p>
   </div>
 </div>
   
@@ -41,10 +45,10 @@
     <img src="https://media0.giphy.com/media/3o752nnUPE7OzLeSVW/giphy.webp" />
     </div>
   <div class="card_title title-black">
-    <p>Administrador</p>
+    <p style="text-shadow: 4px 4px white;">Administrador</p>
   </div>
   </div>
-
+  </div>
 </div>
 </main>
 </body>
