@@ -1,0 +1,41 @@
+
+.card-reveal-wrapper {
+    position: relative;
+  }
+  
+  .card-reveal-wrapper .open-button,
+  .card-reveal-wrapper .close-button {
+    cursor: pointer;
+    float: right;
+    font-size: 0.875rem;
+    padding-left: 0.5rem;
+    text-align: right;
+    width:100% ;
+    height: 100px;
+  }
+  
+  .card-reveal-wrapper .card-reveal {
+    background: #fefefe;
+    bottom: 0;
+    display: block;
+    left: 0;
+    overflow: hidden;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    transition: top 0.6s ease-in-out;
+  }
+  
+  .card-reveal-wrapper .card-reveal.open {
+    top: 0;
+    z-index: 1;
+  }
+  
+  .row-same-height {
+    display: table;
+    width: 100%;
+    /* fix overflow */
+    table-layout: fixed;
+  }
+  

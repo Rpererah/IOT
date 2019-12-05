@@ -1,48 +1,62 @@
 <?php include_once("header.php"); ?>
-<?php if(!isset($_SESSION["usuario"]))
-{
-    header ("Location: login.php");
-} 
-?>
-<main>
-  <!--Quadro de noticias-->
-  <div class="wide-article-link">
-  <div class="row">
-    <div class="small-12 medium-9 columns">
-      <h4 class="article-title">
-        <a href="#">
-          Honing its dynamic pricing formula, Vacasa wants to make homeowners more cash than Airbnb
-        </a>
-      </h4>
-      <p class="article-author"><em>by <a href="#">TechCrunch</a></em></p>
-      <p class="article-elipsis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat longshoreman... <a href="#" class="read-more">Read more</a></p>
-      <div class="article-social">
-        <a href="#" class="button social comments">
-          <i class="fa fa-comments-o" aria-hidden="true"></i> 0
-        </a>
-        <a href="#" class="button social facebook">
-          <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
-        </a>
-        <a href="#" class="button social twitter">
-          <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
-        </a>
-        <a href="#" class="button social linkedin">
-          <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-        </a>
-        <a href="#" class="button social google-plus">
-          <i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>
-        </a>
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-preview">
+          <a href="posts.php">
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="posts.php">
+            <h2 class="post-title">
+            O que é automação?
+            </h2>
+            <h3 class="post-subtitle">
+            “É uma nova experiência em moradia, que proporciona conexão e controle da sua casa e dos seus aparelhos eletrônicos, estando você em qualquer lugar, desde um keyboard, ou em um painel, bem como na palma da sua mão, conectado a uma rede wireless. É o resultado da integração de seus aparelhos com comandos automáticos controlados até mesmo por um smartphone ou computador”
+            </h3>
+          </a>
+          <p class="post-meta">Postado por
+          <a href="#">Julio</a>
+            04/12/2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="posts.php">
+            <h2 class="post-title">
+            O que dá para automatizar?
+            </h2>
+            <h3 class="post-subtitle">
+            “quase tudo que tem acionamento eletrônico” pode ser automatizado. 
+            </h3>
+          </a>
+          <p class="post-meta">Postado por
+          <a href="#">Julio</a>
+            04/12/2019</p>
+        </div>
+        <hr>
+        <div class="post-preview">
+          <a href="posts.php">
+            <h2 class="post-title">
+            Qual o custo da automação?
+            </h2>
+            <h3 class="post-subtitle">
+            “Tudo depende do grau de integração desejado pelo morador”, explica Muratori.
+            </h3>
+          </a>
+          <p class="post-meta">Postado por
+          <a href="#">Julio</a>
+            04/12/2019</p>
+        </div>
+        <hr>
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="posts.php"> Postagens Completas &rarr;</a>
+        </div>
       </div>
     </div>
-    <div class="small-12 medium-3 columns flex-container align-middle">
-      <img src="https://www.contabeis.com.br/assets/img/news/a_5755_ba84d9ed0e2c391714dd41620490d8db.jpg">
-    </div>
   </div>
-</div>
 
+  <hr>
 
-</main>
-<?php include_once("footer.php"); ?>
+  <?php include_once("footer.php"); ?>

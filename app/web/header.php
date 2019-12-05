@@ -1,67 +1,90 @@
 <?php session_start(); ?>
+<?php if(!isset($_SESSION["usuario"]))
+{
+    header ("Location: login.php");
+} 
+?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <link rel="stylesheet" href="css/foundation.css" />
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/social.css">
-        <link rel="stylesheet" href="css/artigos.css">
-        <title>Casa Automatica</title>
-    </head>
-    <body>
-        
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<a class="navbar-brand" href="#"> <img class="logo" width="65px" src="images/logo.png"><strong">Home Tech</strong></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbar1">
-    <ul class="navbar-nav ml-auto"> 
-<li class="nav-item active">
-<a class="nav-link" href="http://bootstrap-ecommerce.com">Home <span class="sr-only">(current)</span></a>
-</li>
-<li class="nav-item"><a class="nav-link" href="html-components.html"> Portifolio </a></li>
-<li class="nav-item"><a class="nav-link" href="./blog/index.php"> Blog </a></li>
-<li class="nav-item"><a class="nav-link" href="html-components.html"> Login </a></li>
-    </ul>
-  </div>
-  </div>
-</nav>
-<?php /*
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Casa Automatica</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.php">Home <span class="sr-only">(Página atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.php">Portfólio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.php">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <?php if(!isset($_SESSION["usuario"])) { ?>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Casa Automatica</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css" integrity="sha256-GSio8qamaXapM8Fq9JYdGNTvk/dgs+cMLgPeevOYEx0= sha384-wAweiGTn38CY2DSwAaEffed6iMeflc0FMiuptanbN4J+ib+342gKGpvYRWubPd/+ sha512-QHEb6jOC8SaGTmYmGU19u2FhIfeG+t/hSacIWPpDzOp5yygnthL3JwnilM7LM1dOAbJv62R+/FICfsrKUqv4Gg==" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/foundation.css" />
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="http://localhost/iot/app/web/index.php">Voltar</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.php">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.php">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="posts.php">Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.php">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.php">Portifólio</a>
+          </li>
+          <li class="nav-item">
+           <?php if(!isset($_SESSION["usuario"])) { ?>
                         <a class="nav-link" href="login.php">Login</a>
                         <?php } else { ?>
                         <a class="nav-link" href="logout.php">Deslogar</a>
-                        <?php } ?>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header> 
-    */ ?>
+                        <?php } ?></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </nav>
 
+
+  
+  
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/house2.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Casa automatica</h1>
+            <span class="subheading"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>

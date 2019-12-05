@@ -1,31 +1,110 @@
 <?php include_once("header.php"); ?>
-<?php 
-/*class Portfolio 
-{
-    public $imagem, $descricao;
-    function __construct($imagem, $descricao)
-    {
-        $this->imagem = $imagem;
-        $this->descricao = $descricao;
-    }
-}
-$portfolios = array( 
-    new Portfolio('',  ''),
-    new Portfolio('',  ''),
-    new Portfolio('',  ''),
-    new Portfolio('',  ''),
-    );
-?>
-<div class="row"></div>
-    <main>
-    <h1>Portfolio</h1>
-        <?php foreach ($portfolios as $cartao) { ?>
-        <div class="card col-sm-12 col-md-6">
-            <img class="card-img-top" src="<?=$cartao->imagem?>" alt=""> 
-            <div class="card-body">
-                <h3 class="card-title"><?=$cartao->descricao?></h3>
-            </div>
-        </div>
-        <?php }*/ ?> 
- <main></main>
+
+ <main>
+     <div class="container">
+     <div class="row">
+     <div class="col-sm">
+ <div class="card card-reveal-wrapper" style="position:float;" >
+  <img   src="https://www.worksolution.ws/wp-content/uploads/2015/07/Post-Blog-Ilumina%C3%A7%C3%A3o-1500x800.jpg">
+  <div class="card-section">
+    <i class="fa fa-angle-up open-button"><span class="show-for-sr">More</span></i>
+    <p>Iluminação via app</p>
+    <div class="card-reveal">
+      <span class="card-reveal-title">
+        <h4>Descrição</h4>
+        <i class="fa fa-angle-down close-button"><span class="show-for-sr">Close</span></i>
+      </span>
+      <p>Que tal acessar as lâmpadas de sua casa em uma interface amigável, nós podemos te ajudar</p>
+    </div> <!-- /.card-reveal -->
+  </div> <!-- /.card-section -->
+</div> <!-- /.card -->
+</div>
+<div class="col-sm">
+<div class="card card-reveal-wrapper">
+  <img src="https://proincluir.org/wp-content/themes/incluir/assets/modules/surdez/cultura-surda/img/01.jpg">
+  <div class="card-section">
+    <i class="fa fa-angle-up open-button"><span class="show-for-sr">More</span></i>
+    <p>Campainha para surdos</p>
+    <div class="card-reveal">
+      <span class="card-reveal-title">
+        <h4>Descrição</h4>
+        <i class="fa fa-angle-down close-button"><span class="show-for-sr">Close</span></i>
+      </span>
+      <p>Você está com problemas em identificar quando tem alguém à porta? Esse nosso serviço irá suprir suas necessidades</p>
+    </div> <!-- /.card-reveal -->
+  </div> <!-- /.card-section -->
+</div> <!-- /.card -->
+</div>
+<div class="col-sm">
+<div class="card card-reveal-wrapper">
+  <img src="https://media.giphy.com/media/WU1UF5Ff5ERagdopUX/giphy.gif">
+  <div class="card-section">
+    <i class="fa fa-angle-up open-button"><span class="show-for-sr">More</span></i>
+    <p>Alarme para surdos</p>
+    <div class="card-reveal">
+      <span class="card-reveal-title">
+        <h4>Descrição</h4>
+        <i class="fa fa-angle-down close-button"><span class="show-for-sr">Close</span></i>
+      </span>
+      <p>Cansado de perder a hora? Esse nosso serviço irá suprir suas necessidades</p>
+    </div> <!-- /.card-reveal -->
+  </div> <!-- /.card-section -->
+</div> <!-- /.card -->
+</div>
+</div>
+<div class="row">
+<div class="col-sm">
+<div class="card card-reveal-wrapper">
+  <img src="https://www.g-locks.com.br/img/artigos/fechadura-de-cartao.jpg">
+  <div class="card-section">
+    <i class="fa fa-angle-up open-button"><span class="show-for-sr">More</span></i>
+    <p>Porta para cegos</p>
+    <div class="card-reveal">
+      <span class="card-reveal-title">
+        <h4>Descrição</h4>
+        <i class="fa fa-angle-down close-button"><span class="show-for-sr">Close</span></i>
+      </span>
+      <p>Está com dificuldade em abrir portas, as chaves não são seguras? Esse nosso serviço irá suprir suas necessidades</p>
+    </div> <!-- /.card-reveal -->
+  </div> <!-- /.card-section -->
+</div> <!-- /.card -->
+</div>
+<div class="col-sm">
+<div class="card card-reveal-wrapper">
+  <img src="https://www.agricultura.sp.gov.br/images/images/stories/Banco_de_Fotos_Portal/01/DESTAQUE_6.jpg">
+  <div class="card-section">
+    <i class="fa fa-angle-up open-button"><span class="show-for-sr">More</span></i>
+    <p>Irrigação automatica</p>
+    <div class="card-reveal">
+      <span class="card-reveal-title">
+        <h4>Descrição</h4>
+        <i class="fa fa-angle-down close-button"><span class="show-for-sr">Close</span></i>
+      </span>
+      <p>Suas plantas morrem? Esse nosso serviço irá suprir suas necessidades</p>
+    </div> <!-- /.card-reveal -->
+  </div> <!-- /.card-section -->
+</div> <!-- /.card -->
+</div>
+<div class="col-sm">
+<div class="card card-reveal-wrapper">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvE1kijye58pEI9Ki3RTAC3eLSiCdNsyL4N4BqFOI3Dropfk0pbg&s" >
+  <div class="card-section">
+    <i class="fa fa-angle-up open-button"><span class="show-for-sr">More</span></i>
+    <p>Em breve</p>
+    <div class="card-reveal">
+      <span class="card-reveal-title">
+        <h4>Descrição</h4>
+        <i class="fa fa-angle-down close-button"><span class="show-for-sr">Close</span></i>
+      </span>
+      <p>Que tal aguardar um pouco? Logo mais um serviço para te suprir</p>
+    </div> <!-- /.card-reveal -->
+  </div> <!-- /.card-section -->
+</div> <!-- /.card -->
+</div>
+</div>
+
+
+
+
+</main>
 <?php include_once("footer.php"); ?>
