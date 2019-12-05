@@ -14,7 +14,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Casa Automatica</title>
+  <title>Casa Automática</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -70,21 +70,3 @@
     </div>
   </nav>
   </nav>
-
-
-  
-  
-  <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/house2.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>Casa automatica</h1>
-            <span class="subheading"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
