@@ -58,14 +58,14 @@
             <a class="nav-link" href="contato.php">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="teste.php">teste</a>
-          </li>
-          <li class="nav-item">
            <?php if(!isset($_SESSION["usuario"])) { ?>
                         <a class="nav-link" href="login.php">Login</a>
                         <?php } else { ?>
                         <a class="nav-link" href="logout.php">Deslogar</a>
                         <?php } ?></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="teste.php">teste</a>
           </li>
         </ul>
       </div>

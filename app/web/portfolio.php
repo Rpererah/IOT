@@ -29,6 +29,9 @@
         <i class="fa fa-angle-down close-button"><span class="show-for-sr">Close</span></i>
       </span>
       <p>Que tal acessar as lâmpadas de sua casa em uma interface amigável, nós podemos te ajudar</p>
+      <a href="teste.php">
+      <button type="submit" class="btn btn-primary">Teste agora</button>
+      </a>
     </div> <!-- /.card-reveal -->
   </div> <!-- /.card-section -->
 </div> <!-- /.card -->
