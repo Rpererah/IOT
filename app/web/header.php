@@ -46,16 +46,16 @@
             <a class="nav-link" href="index.php">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="sobre.php">Sobre nós</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="posts.php">Posts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contato.php">Contato</a>
+            <a class="nav-link" href="portfolio.php">Portfólio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.php">Portfólio</a>
+            <a class="nav-link" href="sobre.php">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.php">Contato</a>
           </li>
           <li class="nav-item">
            <?php if(!isset($_SESSION["usuario"])) { ?>
