@@ -1,0 +1,46 @@
+Introdução
+Nosso site é sobre Automatização Residencial e será responsável por funcionar como controle para casa do usuário, painel administrativo e blog.
+No início haverá a opção do usuário selecionar o seu tipo como deficiente auditivo, deficiente visual, a todos (que não possui nenhuma das deficiências anteriores)
+e administrador, em seguida será a tela de login, e após o login bem-sucedido terá a página inicial, que na navbar conterá menu, portfólio, blog e logout.
+
+Dia 4/12/2019 14:33
+"segundo git"
+O footer não carregou direito acima dos ícones aparecem:
+mode_edit
+insert_chart
+format_quote
+publish
+attach_file
+Debaixo disso há alguns ícones tortos que não possuem links.
+Há um link que era suposto levar para HomeTECH.com, mas leva para https://mdbootstrap.com/education/bootstrap/.
+O copyright não está com o ano certo.
+A aparência do site é muito quadrada.
+Não há um botão de logout.
+O cliente pode ficar confuso com a falta do cadastro.
+Os ícones/links da home também não funcionam.
+A navbar não funciona, os links não foram alterados para levar à suas respectivas páginas.
+Ao testar a responsividade, percebe-se que página não fica do tamanho exato da tela, sobra um pouco.
+O menu "de hambúrguer" não fica exatamente no canto da página.
+O conteúdo da home começa muito colado com a margem da página, ficando bem ruim a leitura.
+Não foram feitos os branches para cada parte do site, há apenas o branch menu-blog e o master.
+Os links da navbar estão mal posicionados e pequenos.
+A página de entrada não aparece, está isolada, assim como o blog, não foi feita a junção dessas páginas ao site.
+
+Dia 4/12/2019 19:37
+"blog"
+O blog à parte tem uma aparência e uma estrutura diferente da principal.
+Não há notícias.
+O link para voltar à página principal não funciona.
+Os links do footer não funcionam.
+O link de post mais antigos não funciona.
+Dia 4/12/2019 20:17
+"inserindo informação no blog"
+Os links do footer ainda não funcionam.
+Não é intuitivo para o usuário de celular voltar à página inicial quando está em posts.
+O copyright não possui o nome do site.
+O link “sobre-nós” não possuí hífen e início possuí acento.
+O título Casa automatica falta acento e podia estar em maiúscula as duas palavras.
+
+Dia 6/12/2019 13:12
+Há um botão de voltar que não tem utilidade.
+O site não redireciona para a entrada onde há a opção de escolher seu tipo de usuário.
