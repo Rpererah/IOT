@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <?php if(!isset($_SESSION["usuario"]))
 {
-    header ("Location: login.php");
+    header ("Location: entrada.php");
 } 
 ?>
 <!DOCTYPE html>
@@ -36,7 +36,6 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="http://localhost/iot/app/web/index.php">Voltar</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
