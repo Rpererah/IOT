@@ -10,46 +10,58 @@
 </head>
 <body>
 <main>
-<div class="container" style="margin-top:100px">
+<div style="margin-top:100px">
+<div class="row">
     <div class="cards-list">
-  
-<div class="card 1">
-  <div class="card_image"> <img src="http://portalsinalverde.com/uploads/noticias/29de3b4b05a7ce13fb34411b454ed13902092019133204.jpg" /> </div>
-  <div class="card_title title-white"> 
-    <p style="text-shadow: 4px 4px black;"> </p>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+
+      <div class="card 1" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+        <div class="card_image"> <img src="http://portalsinalverde.com/uploads/noticias/29de3b4b05a7ce13fb34411b454ed13902092019133204.jpg" /> </div>
+        <div class="card_title title-white"> 
+        
+      
+
+        </div>
+      </div>
   
   </div>
-  
-</div>
-
-  <div class="card 2">
+<div class="col-sm-12 col-md-6 col-lg-3">
+  <a href="#" class="card 2" tabindex="1"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" >
   <div class="card_image">
-    <img src="https://vidamaislivre.com.br/wp-content/uploads/2014/04/deficiente_visual_quadrado-2.jpg" alt="Botão seleção de opção de site voltado a deficientes visuais" />
+    <img src="https://vidamaislivre.com.br/wp-content/uploads/2014/04/deficiente_visual_quadrado-2.jpg" alt="Botão seleção de opção de site voltado a deficientes visuais"  />
     </div>
   <div class="card_title title-white">
-    <p style="text-shadow: 4px 4px black;">VISUAL</p>
+    
   </div>
+</a>
 </div>
-
-<div class="card 3">
+<div class="col-sm-12 col-md-6 col-lg-3">
+<div class="card 3"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" >
   <div class="card_image">
     <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/381c2abde74ad5fb139f94f5347d0fa6.jpg" />
   </div>
   <div class="card_title title-white">
-    <p style="text-shadow: 4px 4px black;" ></p>
+    <p></p>
   </div>
 </div>
-  
-  <div class="card 4">
+</div>
+<div class="col-sm-12 col-md-6 col-lg-3">
+  <div class="card 4"  data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
   <div class="card_image">
     <img src="https://media0.giphy.com/media/3o752nnUPE7OzLeSVW/giphy.webp" />
     </div>
   <div class="card_title title-black">
-    <p style="text-shadow: 4px 4px white;">Administrador</p>
+    <p ></p>
+  </div>
   </div>
   </div>
   </div>
 </div>
+</div>
+<?php include_once("modal.php"); ?>
 </main>
+
 </body>
+
 </html>

@@ -56,7 +56,7 @@
             <a class="nav-link" href="contato.php">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.php">Portifólio</a>
+            <a class="nav-link" href="portfolio.php">Portfólio</a>
           </li>
           <li class="nav-item">
            <?php if(!isset($_SESSION["usuario"])) { ?>

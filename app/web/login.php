@@ -21,6 +21,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/entrada.css">
 
 </head>
     <main>
