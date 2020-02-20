@@ -1,6 +1,7 @@
 <?php include_once("header.php"); ?>
 
   <!-- Page Header -->
+  <section class="fundo"> 
   <header class="masthead" style="background-image: url('img/portfolio.jpg')">
     <div class="overlay"></div>
     <div class="container">
@@ -15,6 +16,7 @@
     </div>
   </header>
  <main>
+
      <div class="container">
      <div class="row">
      <div class="col-sm">
@@ -125,3 +127,4 @@
 
 </main>
 <?php include_once("footer.php"); ?>
+</section>

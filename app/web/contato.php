@@ -1,6 +1,7 @@
 <?php include_once("header.php"); ?>
 
   <!-- Page Header -->
+  <section class="fundo"> 
   <header class="masthead" style="background-image: url('img/house3.jpg')">
     <div class="overlay"></div>
     <div class="container">
