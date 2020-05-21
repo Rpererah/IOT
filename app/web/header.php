@@ -1,9 +1,3 @@
-<?php session_start(); ?>
-<?php if(!isset($_SESSION["usuario"]))
-{
-    header ("Location: Entrada.php");
-} 
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,6 +51,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contato.php">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="desloga.php">Logout</a>
           </li>
          
         </ul>

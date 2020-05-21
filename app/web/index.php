@@ -1,4 +1,14 @@
-<?php include_once("header.php"); ?>
+<?php include_once "partials/userheader.php"; ?>
+<?php
+  require_once "src/helpers/banco.php";
+  require_once "src/models/usuarioDAO.php";
+  $usuarioDAO = new UsuarioDAO($pdo);
+  $listaDeUsuarios = $usuarioDAO->readAll();
+ 
+?>
+
+<?php include_once "partials/head.php"; ?>
+
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/house2.jpg')">
     <div class="overlay"></div>
@@ -13,6 +23,18 @@
       </div>
     </div>
   </header>
+
+  <body> <!-- Inicio do corpo da página -->
+
+... <!-- Conteúdo da página -->
+
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+
   <!-- section Content -->
   <section class="fundo">
   <div class="container">
@@ -72,6 +94,11 @@
     </div>
   </div>
   <hr>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</body> <!-- Fim do corpo da página -->
   
   <?php include_once("footer.php"); ?>
 </section>

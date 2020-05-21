@@ -13,7 +13,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a target="_blank" href="https://facebook.com">
+              <a target="_blank" href="https://www.facebook.com/hometech.fiec.1">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
